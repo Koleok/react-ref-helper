@@ -5,3 +5,13 @@
 lodash.curry@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.curry/-/lodash.curry-4.1.1.tgz#248e36072ede906501d75966200a86dab8b23170"
+
+semver@5.3.x:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
+
+xyz@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/xyz/-/xyz-2.0.1.tgz#047ea84e9e3b63493022e43791924937eb189306"
+  dependencies:
+    semver "5.3.x"

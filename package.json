@@ -6,14 +6,20 @@
   "repository": "https://github.com/Koleok/react-ref-helper.git",
   "author": "Koleok <kchamb3@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "lodash.curry": "^4.1.1"
-  },
   "keywords": [
     "curry",
     "curried",
     "react",
     "ref",
     "component"
-  ]
+  ],
+  "scripts": {
+    "release": "./node_modules/.bin/xyz --repo git@github.com:Koleok/react-ref-helper.git --increment"
+  },
+  "dependencies": {
+    "lodash.curry": "^4.1.1"
+  },
+  "devDependencies": {
+    "xyz": "^2.0.1"
+  }
 }
