@@ -1,0 +1,19 @@
+{
+  "name": "react-ref-helper",
+  "version": "0.1.0",
+  "description": "curried ref helper for react components",
+  "main": "index.js",
+  "repository": "https://github.com/Koleok/react-ref-helper.git",
+  "author": "Koleok <kchamb3@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.curry": "^4.1.1"
+  },
+  "keywords": [
+    "curry",
+    "curried",
+    "react",
+    "ref",
+    "component"
+  ]
+}
