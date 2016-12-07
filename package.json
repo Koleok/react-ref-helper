@@ -1,6 +1,6 @@
 {
   "name": "react-ref-helper",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "curried ref helper for react components",
   "main": "index.js",
   "repository": "https://github.com/Koleok/react-ref-helper.git",
