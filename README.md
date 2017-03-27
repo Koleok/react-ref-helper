@@ -18,7 +18,7 @@ Addressed by partially applying with `this`,
 the resulting function expects a ref name before performing the assignment
 ```javascript
 import React, { Component } from 'react'
-import refWith from 'react-ref-helper'
+import { refWith } from 'react-ref-helper'
 
 class A extends Component {
   render() {
@@ -39,7 +39,7 @@ Addressed by partially applying with the ref name,
 the resulting function expects a context (`this`) before performing the assignment
 ```javascript
 import React, { Component } from 'react'
-import refAs from 'react-ref-helper'
+import { refAs } from 'react-ref-helper'
 
 const inputRef = refAs('input')
 
@@ -69,7 +69,7 @@ Addressed by partially applying with both `this` and the ref name,
 the resulting function expects only a value before performing the assignment
 ```javascript
 import React, { Component } from 'react'
-import refWith from 'react-ref-helper'
+import { refWith } from 'react-ref-helper'
 
 class A extends Component {
   render() {
